@@ -1,0 +1,544 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of halt.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are src\examples\halt.c, src\tests\userprog\halt.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of debug.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are src\lib\debug.c, src\lib\kernel\debug.c, src\lib\user\debug.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of console.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are src\lib\kernel\console.c, src\lib\user\console.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of list.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are src\lib\kernel\list.c, src\tests\internal\list.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of stdio.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are src\lib\stdio.c, src\tests\internal\stdio.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of stdlib.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are src\lib\stdlib.c, src\tests\internal\stdlib.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of syscall.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are src\lib\user\syscall.c, src\userprog\syscall.c.
+  squish-unix.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\utils\squish-unix.c(11): fatal error C1083: Cannot open include file: 'stropts.h': No such file or directory
+  squish-pty.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\utils\squish-pty.c(10): fatal error C1083: Cannot open include file: 'stropts.h': No such file or directory
+  setitimer-helper.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\utils\setitimer-helper.c(7): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory
+  tss.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\userprog\tss.c(1): fatal error C1083: Cannot open include file: 'userprog/tss.h': No such file or directory
+  syscall.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\userprog\syscall.c(1): fatal error C1083: Cannot open include file: 'userprog/syscall.h': No such file or directory
+  process.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\userprog\process.c(1): fatal error C1083: Cannot open include file: 'userprog/process.h': No such file or directory
+  pagedir.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\userprog\pagedir.c(1): fatal error C1083: Cannot open include file: 'userprog/pagedir.h': No such file or directory
+  gdt.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\userprog\gdt.c(1): fatal error C1083: Cannot open include file: 'userprog/gdt.h': No such file or directory
+  exception.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\userprog\exception.c(1): fatal error C1083: Cannot open include file: 'userprog/exception.h': No such file or directory
+  thread.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\threads\thread.c(1): fatal error C1083: Cannot open include file: 'threads/thread.h': No such file or directory
+  synch.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\threads\synch.c(29): fatal error C1083: Cannot open include file: 'threads/synch.h': No such file or directory
+  palloc.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\threads\palloc.c(1): fatal error C1083: Cannot open include file: 'threads/palloc.h': No such file or directory
+  malloc.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\threads\malloc.c(1): fatal error C1083: Cannot open include file: 'threads/malloc.h': No such file or directory
+  interrupt.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\threads\interrupt.c(1): fatal error C1083: Cannot open include file: 'threads/interrupt.h': No such file or directory
+  init.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\threads\init.c(1): fatal error C1083: Cannot open include file: 'threads/init.h': No such file or directory
+  qsort.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\qsort.c(1): fatal error C1083: Cannot open include file: 'tests/vm/qsort.h': No such file or directory
+  pt-write-code.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\pt-write-code.c(4): fatal error C1083: Cannot open include file: 'tests/lib.h': No such file or directory
+  pt-write-code-2.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\pt-write-code-2.c(4): fatal error C1083: Cannot open include file: 'tests/lib.h': No such file or directory
+  pt-grow-stk-sc.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\pt-grow-stk-sc.c(8): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  pt-grow-stack.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\pt-grow-stack.c(5): fatal error C1083: Cannot open include file: 'tests/arc4.h': No such file or directory
+  Generating Code...
+  Compiling...
+  pt-grow-pusha.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\pt-grow-pusha.c(6): fatal error C1083: Cannot open include file: 'tests/arc4.h': No such file or directory
+  pt-grow-bad.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\pt-grow-bad.c(5): fatal error C1083: Cannot open include file: 'tests/arc4.h': No such file or directory
+  pt-big-stk-obj.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\pt-big-stk-obj.c(5): fatal error C1083: Cannot open include file: 'tests/arc4.h': No such file or directory
+  pt-bad-read.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\pt-bad-read.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  pt-bad-addr.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\pt-bad-addr.c(4): fatal error C1083: Cannot open include file: 'tests/lib.h': No such file or directory
+  parallel-merge.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\parallel-merge.c(6): fatal error C1083: Cannot open include file: 'tests/vm/parallel-merge.h': No such file or directory
+  page-shuffle.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\page-shuffle.c(5): fatal error C1083: Cannot open include file: 'tests/arc4.h': No such file or directory
+  page-parallel.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\page-parallel.c(3): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  page-merge-stk.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\page-merge-stk.c(1): fatal error C1083: Cannot open include file: 'tests/main.h': No such file or directory
+  page-merge-seq.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\page-merge-seq.c(6): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  page-merge-par.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\page-merge-par.c(1): fatal error C1083: Cannot open include file: 'tests/main.h': No such file or directory
+  page-merge-mm.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\page-merge-mm.c(1): fatal error C1083: Cannot open include file: 'tests/main.h': No such file or directory
+  page-linear.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\page-linear.c(5): fatal error C1083: Cannot open include file: 'tests/arc4.h': No such file or directory
+  mmap-zero.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\mmap-zero.c(6): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  mmap-write.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\mmap-write.c(6): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  mmap-unmap.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\mmap-unmap.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  mmap-twice.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\mmap-twice.c(5): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  mmap-shuffle.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\mmap-shuffle.c(6): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  mmap-remove.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\mmap-remove.c(5): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  mmap-read.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\mmap-read.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  Generating Code...
+  Compiling...
+  mmap-overlap.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\mmap-overlap.c(3): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  mmap-over-stk.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\mmap-over-stk.c(4): fatal error C1083: Cannot open include file: 'round.h': No such file or directory
+  mmap-over-data.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\mmap-over-data.c(4): fatal error C1083: Cannot open include file: 'round.h': No such file or directory
+  mmap-over-code.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\mmap-over-code.c(4): fatal error C1083: Cannot open include file: 'round.h': No such file or directory
+  mmap-null.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\mmap-null.c(3): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  mmap-misalign.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\mmap-misalign.c(3): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  mmap-inherit.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\mmap-inherit.c(5): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  mmap-exit.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\mmap-exit.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  mmap-close.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\mmap-close.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  mmap-clean.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\mmap-clean.c(5): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  mmap-bad-fd.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\mmap-bad-fd.c(5): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  child-sort.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\child-sort.c(5): fatal error C1083: Cannot open include file: 'debug.h': No such file or directory
+  child-qsort.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\child-qsort.c(6): fatal error C1083: Cannot open include file: 'debug.h': No such file or directory
+  child-qsort-mm.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\child-qsort-mm.c(4): fatal error C1083: Cannot open include file: 'debug.h': No such file or directory
+  child-mm-wrt.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\child-mm-wrt.c(7): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  child-linear.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\child-linear.c(6): fatal error C1083: Cannot open include file: 'tests/arc4.h': No such file or directory
+  child-inherit.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\vm\child-inherit.c(6): fatal error C1083: Cannot open include file: 'tests/vm/sample.inc': No such file or directory
+  write-zero.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\write-zero.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  write-stdin.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\write-stdin.c(5): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  write-normal.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\write-normal.c(3): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  Generating Code...
+  Compiling...
+  write-boundary.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\write-boundary.c(5): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  write-bad-ptr.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\write-bad-ptr.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  write-bad-fd.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\write-bad-fd.c(6): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  wait-twice.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\wait-twice.c(5): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  wait-simple.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\wait-simple.c(3): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  wait-killed.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\wait-killed.c(3): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  wait-bad-pid.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\wait-bad-pid.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  sc-boundary.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\sc-boundary.c(4): fatal error C1083: Cannot open include file: 'syscall-nr.h': No such file or directory
+  sc-boundary-2.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\sc-boundary-2.c(5): fatal error C1083: Cannot open include file: 'syscall-nr.h': No such file or directory
+  sc-bad-sp.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\sc-bad-sp.c(12): fatal error C1083: Cannot open include file: 'tests/lib.h': No such file or directory
+  sc-bad-arg.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\sc-bad-arg.c(7): fatal error C1083: Cannot open include file: 'syscall-nr.h': No such file or directory
+  rox-simple.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\rox-simple.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  rox-multichild.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\rox-multichild.c(5): fatal error C1083: Cannot open include file: 'tests/userprog/rox-child.inc': No such file or directory
+  rox-child.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\rox-child.c(5): fatal error C1083: Cannot open include file: 'tests/userprog/rox-child.inc': No such file or directory
+  read-zero.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\read-zero.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  read-stdout.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\read-stdout.c(6): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  read-normal.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\read-normal.c(3): fatal error C1083: Cannot open include file: 'tests/userprog/sample.inc': No such file or directory
+  read-boundary.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\read-boundary.c(5): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  read-bad-ptr.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\read-bad-ptr.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  read-bad-fd.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\read-bad-fd.c(6): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  Generating Code...
+  Compiling...
+  open-twice.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\open-twice.c(5): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  open-null.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\open-null.c(5): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  open-normal.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\open-normal.c(3): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  open-missing.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\open-missing.c(3): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  open-empty.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\open-empty.c(3): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  open-boundary.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\open-boundary.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  open-bad-ptr.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\open-bad-ptr.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  multi-oom.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\no-vm\multi-oom.c(18): fatal error C1083: Cannot open include file: 'debug.h': No such file or directory
+  multi-recurse.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\multi-recurse.c(4): fatal error C1083: Cannot open include file: 'debug.h': No such file or directory
+  multi-child-fd.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\multi-child-fd.c(7): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  halt.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\halt.c(3): fatal error C1083: Cannot open include file: 'tests/lib.h': No such file or directory
+  exit.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\exit.c(3): fatal error C1083: Cannot open include file: 'tests/lib.h': No such file or directory
+  exec-once.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\exec-once.c(3): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  exec-multiple.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\exec-multiple.c(3): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  exec-missing.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\exec-missing.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  exec-bad-ptr.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\exec-bad-ptr.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  exec-arg.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\exec-arg.c(3): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  create-null.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\create-null.c(4): fatal error C1083: Cannot open include file: 'tests/lib.h': No such file or directory
+  create-normal.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\create-normal.c(3): fatal error C1083: Cannot open include file: 'tests/lib.h': No such file or directory
+  create-long.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\create-long.c(5): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  Generating Code...
+  Compiling...
+  create-exists.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\create-exists.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  create-empty.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\create-empty.c(3): fatal error C1083: Cannot open include file: 'tests/lib.h': No such file or directory
+  create-bound.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\create-bound.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  create-bad-ptr.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\create-bad-ptr.c(5): fatal error C1083: Cannot open include file: 'tests/lib.h': No such file or directory
+  close-twice.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\close-twice.c(5): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  close-stdout.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\close-stdout.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  close-stdin.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\close-stdin.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  close-normal.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\close-normal.c(3): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  close-bad-fd.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\close-bad-fd.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  child-simple.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\child-simple.c(6): fatal error C1083: Cannot open include file: 'tests/lib.h': No such file or directory
+  child-rox.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\child-rox.c(10): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  child-close.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\child-close.c(13): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  child-bad.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\child-bad.c(6): fatal error C1083: Cannot open include file: 'tests/lib.h': No such file or directory
+  boundary.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\boundary.c(6): fatal error C1083: Cannot open include file: 'round.h': No such file or directory
+  bad-write2.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\bad-write2.c(4): fatal error C1083: Cannot open include file: 'tests/lib.h': No such file or directory
+  bad-write.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\bad-write.c(4): fatal error C1083: Cannot open include file: 'tests/lib.h': No such file or directory
+  bad-read2.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\bad-read2.c(4): fatal error C1083: Cannot open include file: 'tests/lib.h': No such file or directory
+  bad-read.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\bad-read.c(4): fatal error C1083: Cannot open include file: 'tests/lib.h': No such file or directory
+  bad-jump2.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\bad-jump2.c(4): fatal error C1083: Cannot open include file: 'tests/lib.h': No such file or directory
+  bad-jump.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\bad-jump.c(4): fatal error C1083: Cannot open include file: 'tests/lib.h': No such file or directory
+  Generating Code...
+  Compiling...
+  args.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\userprog\args.c(6): fatal error C1083: Cannot open include file: 'tests/lib.h': No such file or directory
+  tests.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\tests.c(1): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  priority-sema.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\priority-sema.c(5): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  priority-preempt.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\priority-preempt.c(10): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  priority-fifo.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\priority-fifo.c(11): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  priority-donate-sema.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\priority-donate-sema.c(14): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  priority-donate-one.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\priority-donate-one.c(13): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  priority-donate-nest.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\priority-donate-nest.c(13): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  priority-donate-multiple2.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\priority-donate-multiple2.c(18): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  priority-donate-multiple.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\priority-donate-multiple.c(13): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  priority-donate-lower.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\priority-donate-lower.c(8): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  priority-donate-chain.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\priority-donate-chain.c(28): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  priority-condvar.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\priority-condvar.c(5): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  priority-change.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\priority-change.c(6): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  mlfqs-recent-1.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\mlfqs-recent-1.c(99): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  mlfqs-load-avg.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\mlfqs-load-avg.c(112): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  mlfqs-load-60.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\mlfqs-load-60.c(101): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  mlfqs-load-1.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\mlfqs-load-1.c(10): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  mlfqs-fair.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\mlfqs-fair.c(20): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  mlfqs-block.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\mlfqs-block.c(13): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  Generating Code...
+  Compiling...
+  alarm-zero.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\alarm-zero.c(4): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  alarm-wait.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\alarm-wait.c(6): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  alarm-simultaneous.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\alarm-simultaneous.c(6): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  alarm-priority.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\alarm-priority.c(5): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  alarm-negative.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\threads\alarm-negative.c(4): fatal error C1083: Cannot open include file: 'tests/threads/tests.h': No such file or directory
+  main.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\main.c(1): fatal error C1083: Cannot open include file: 'random.h': No such file or directory
+  lib.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\lib.c(1): fatal error C1083: Cannot open include file: 'tests/lib.h': No such file or directory
+  stdlib.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\internal\stdlib.c(11): fatal error C1083: Cannot open include file: 'debug.h': No such file or directory
+  stdio.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\internal\stdio.c(17): fatal error C1083: Cannot open include file: 'threads/test.h': No such file or directory
+  list.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\internal\list.c(11): fatal error C1083: Cannot open include file: 'debug.h': No such file or directory
+  seq-test.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\seq-test.c(1): fatal error C1083: Cannot open include file: 'tests/filesys/seq-test.h': No such file or directory
+  tar.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\tar.c(5): fatal error C1083: Cannot open include file: 'ustar.h': No such file or directory
+  syn-rw.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\syn-rw.c(4): fatal error C1083: Cannot open include file: 'random.h': No such file or directory
+  mk-tree.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\mk-tree.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  grow-two-files.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\grow-two-files.c(4): fatal error C1083: Cannot open include file: 'random.h': No such file or directory
+  grow-tell.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\grow-tell.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  grow-sparse.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\grow-sparse.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  grow-seq-sm.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\grow-seq-sm.c(5): fatal error C1083: Cannot open include file: 'tests/filesys/extended/grow-seq.inc': No such file or directory
+  grow-seq-lg.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\grow-seq-lg.c(5): fatal error C1083: Cannot open include file: 'tests/filesys/extended/grow-seq.inc': No such file or directory
+  grow-root-sm.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\grow-root-sm.c(4): fatal error C1083: Cannot open include file: 'tests/filesys/extended/grow-dir.inc': No such file or directory
+  Generating Code...
+  Compiling...
+  grow-root-lg.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\grow-root-lg.c(4): fatal error C1083: Cannot open include file: 'tests/filesys/extended/grow-dir.inc': No such file or directory
+  grow-file-size.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\grow-file-size.c(5): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  grow-dir-lg.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\grow-dir-lg.c(6): fatal error C1083: Cannot open include file: 'tests/filesys/extended/grow-dir.inc': No such file or directory
+  grow-create.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\grow-create.c(4): fatal error C1083: Cannot open include file: 'tests/filesys/create.inc': No such file or directory
+  dir-vine.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\dir-vine.c(12): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  dir-under-file.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\dir-under-file.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  dir-rmdir.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\dir-rmdir.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  dir-rm-tree.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\dir-rm-tree.c(6): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  dir-rm-root.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\dir-rm-root.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  dir-rm-parent.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\dir-rm-parent.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  dir-rm-cwd.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\dir-rm-cwd.c(5): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  dir-over-file.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\dir-over-file.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  dir-open.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\dir-open.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  dir-mkdir.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\dir-mkdir.c(3): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  dir-mk-tree.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\dir-mk-tree.c(4): fatal error C1083: Cannot open include file: 'tests/filesys/extended/mk-tree.h': No such file or directory
+  dir-empty-name.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\dir-empty-name.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  child-syn-rw.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\extended\child-syn-rw.c(10): fatal error C1083: Cannot open include file: 'random.h': No such file or directory
+  syn-write.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\base\syn-write.c(5): fatal error C1083: Cannot open include file: 'random.h': No such file or directory
+  syn-remove.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\base\syn-remove.c(4): fatal error C1083: Cannot open include file: 'random.h': No such file or directory
+  syn-read.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\base\syn-read.c(5): fatal error C1083: Cannot open include file: 'random.h': No such file or directory
+  Generating Code...
+  Compiling...
+  sm-seq-random.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\base\sm-seq-random.c(6): fatal error C1083: Cannot open include file: 'tests/filesys/base/seq-random.inc': No such file or directory
+  sm-seq-block.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\base\sm-seq-block.c(7): fatal error C1083: Cannot open include file: 'tests/filesys/base/seq-block.inc': No such file or directory
+  sm-random.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\base\sm-random.c(7): fatal error C1083: Cannot open include file: 'tests/filesys/base/random.inc': No such file or directory
+  sm-full.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\base\sm-full.c(6): fatal error C1083: Cannot open include file: 'tests/filesys/base/full.inc': No such file or directory
+  sm-create.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\base\sm-create.c(5): fatal error C1083: Cannot open include file: 'tests/filesys/create.inc': No such file or directory
+  lg-seq-random.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\base\lg-seq-random.c(6): fatal error C1083: Cannot open include file: 'tests/filesys/base/seq-random.inc': No such file or directory
+  lg-seq-block.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\base\lg-seq-block.c(7): fatal error C1083: Cannot open include file: 'tests/filesys/base/seq-block.inc': No such file or directory
+  lg-random.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\base\lg-random.c(7): fatal error C1083: Cannot open include file: 'tests/filesys/base/random.inc': No such file or directory
+  lg-full.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\base\lg-full.c(6): fatal error C1083: Cannot open include file: 'tests/filesys/base/full.inc': No such file or directory
+  lg-create.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\base\lg-create.c(5): fatal error C1083: Cannot open include file: 'tests/filesys/create.inc': No such file or directory
+  child-syn-wrt.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\base\child-syn-wrt.c(5): fatal error C1083: Cannot open include file: 'random.h': No such file or directory
+  child-syn-read.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\filesys\base\child-syn-read.c(7): fatal error C1083: Cannot open include file: 'random.h': No such file or directory
+  cksum.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\cksum.c(4): fatal error C1083: Cannot open include file: 'tests/cksum.h': No such file or directory
+  arc4.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\tests\arc4.c(2): fatal error C1083: Cannot open include file: 'tests/arc4.h': No such file or directory
+  ustar.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\ustar.c(1): fatal error C1083: Cannot open include file: 'ustar.h': No such file or directory
+  syscall.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\user\syscall.c(1): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  entry.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\user\entry.c(1): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  debug.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\user\debug.c(1): fatal error C1083: Cannot open include file: 'debug.h': No such file or directory
+  console.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\user\console.c(3): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  string.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\string.c(2): fatal error C1083: Cannot open include file: 'debug.h': No such file or directory
+  Generating Code...
+  Compiling...
+  stdlib.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\stdlib.c(2): fatal error C1083: Cannot open include file: 'debug.h': No such file or directory
+  stdio.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\stdio.c(4): fatal error C1083: Cannot open include file: 'round.h': No such file or directory
+  random.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\debug.h(17): error C2061: syntax error: identifier '__attribute__'
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\debug.h(17): error C2059: syntax error: ';'
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\debug.h(17): error C2059: syntax error: 'constant'
+  list.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\debug.h(17): error C2061: syntax error: identifier '__attribute__'
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\debug.h(17): error C2059: syntax error: ';'
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\debug.h(17): error C2059: syntax error: 'constant'
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\kernel\list.c(35): error C2061: syntax error: identifier '__attribute__'
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\kernel\list.c(35): error C2059: syntax error: ';'
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\kernel\list.c(63): warning C4013: 'debug_panic' undefined; assuming extern returning int
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\kernel\list.c(458): warning C4098: 'list_insert_ordered': 'void' function returning a value
+  hash.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\debug.h(17): error C2061: syntax error: identifier '__attribute__'
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\debug.h(17): error C2059: syntax error: ';'
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\debug.h(17): error C2059: syntax error: 'constant'
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\kernel\hash.c(10): fatal error C1083: Cannot open include file: 'threads/malloc.h': No such file or directory
+  debug.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\kernel\debug.c(1): fatal error C1083: Cannot open include file: 'debug.h': No such file or directory
+  console.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\kernel\console.c(1): fatal error C1083: Cannot open include file: 'console.h': No such file or directory
+  bitmap.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\kernel\bitmap.c(2): fatal error C1083: Cannot open include file: 'debug.h': No such file or directory
+  debug.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\debug.c(1): fatal error C1083: Cannot open include file: 'debug.h': No such file or directory
+  arithmetic.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\arithmetic.c(32): warning C4013: 'asm' undefined; assuming extern returning int
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\arithmetic.c(33): error C2143: syntax error: missing ')' before ':'
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\arithmetic.c(29): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\arithmetic.c(108): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\arithmetic.c(109): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\arithmetic.c(134): warning C4244: 'return': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\arithmetic.c(142): error C4146: unary minus operator applied to unsigned type, result still unsigned
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\arithmetic.c(143): error C4146: unary minus operator applied to unsigned type, result still unsigned
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\lib\arithmetic.c(153): warning C4244: 'return': conversion from 'int64_t' to 'int32_t', possible loss of data
+  inode.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\filesys\inode.c(1): fatal error C1083: Cannot open include file: 'filesys/inode.h': No such file or directory
+  fsutil.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\filesys\fsutil.c(1): fatal error C1083: Cannot open include file: 'filesys/fsutil.h': No such file or directory
+  free-map.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\filesys\free-map.c(1): fatal error C1083: Cannot open include file: 'filesys/free-map.h': No such file or directory
+  filesys.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\filesys\filesys.c(1): fatal error C1083: Cannot open include file: 'filesys/filesys.h': No such file or directory
+  file.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\filesys\file.c(1): fatal error C1083: Cannot open include file: 'filesys/file.h': No such file or directory
+  directory.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\filesys\directory.c(1): fatal error C1083: Cannot open include file: 'filesys/directory.h': No such file or directory
+  shell.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\examples\shell.c(4): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  rm.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\examples\rm.c(6): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  recursor.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\examples\recursor.c(3): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  pwd.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\examples\pwd.c(5): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  Generating Code...
+  Compiling...
+  mkdir.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\examples\mkdir.c(6): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  mcp.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\examples\mcp.c(7): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  mcat.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\examples\mcat.c(7): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  matmult.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\examples\matmult.c(12): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  ls.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\examples\ls.c(11): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  lineup.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\examples\lineup.c(12): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  insult.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\examples\insult.c(236): fatal error C1083: Cannot open include file: 'debug.h': No such file or directory
+  hex-dump.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\examples\hex-dump.c(6): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  halt.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\examples\halt.c(7): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  echo.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\examples\echo.c(2): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  cp.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\examples\cp.c(6): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  cmp.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\examples\cmp.c(6): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  cat.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\examples\cat.c(6): fatal error C1083: Cannot open include file: 'syscall.h': No such file or directory
+  bubsort.c
+  vga.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\devices\vga.c(1): fatal error C1083: Cannot open include file: 'devices/vga.h': No such file or directory
+  timer.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\devices\timer.c(1): fatal error C1083: Cannot open include file: 'devices/timer.h': No such file or directory
+  speaker.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\devices\speaker.c(1): fatal error C1083: Cannot open include file: 'devices/speaker.h': No such file or directory
+  shutdown.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\devices\shutdown.c(1): fatal error C1083: Cannot open include file: 'devices/shutdown.h': No such file or directory
+  serial.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\devices\serial.c(1): fatal error C1083: Cannot open include file: 'devices/serial.h': No such file or directory
+  rtc.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\devices\rtc.c(1): fatal error C1083: Cannot open include file: 'devices/rtc.h': No such file or directory
+  Generating Code...
+  Compiling...
+  pit.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\devices\pit.c(1): fatal error C1083: Cannot open include file: 'devices/pit.h': No such file or directory
+  partition.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\devices\partition.c(1): fatal error C1083: Cannot open include file: 'devices/partition.h': No such file or directory
+  kbd.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\devices\kbd.c(1): fatal error C1083: Cannot open include file: 'devices/kbd.h': No such file or directory
+  intq.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\devices\intq.c(1): fatal error C1083: Cannot open include file: 'devices/intq.h': No such file or directory
+  input.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\devices\input.c(1): fatal error C1083: Cannot open include file: 'devices/input.h': No such file or directory
+  ide.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\devices\ide.c(1): fatal error C1083: Cannot open include file: 'devices/ide.h': No such file or directory
+  block.c
+c:\users\dj\desktop\cis 520\pintosrepo\pintos\src\devices\block.c(1): fatal error C1083: Cannot open include file: 'devices/block.h': No such file or directory
+  Generating Code...

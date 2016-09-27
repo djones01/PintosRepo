@@ -1,0 +1,4 @@
+﻿  junk.c
+c:\users\dj\desktop\cis 520\pintosrepo\consoleapplication1\junk.c(4): warning C4101: 'j': unreferenced local variable
+  ConsoleApplication1.vcxproj -> C:\Users\DJ\Desktop\CIS 520\PintosRepo\ConsoleApplication1\Debug\ConsoleApplication1.exe
+  ConsoleApplication1.vcxproj -> C:\Users\DJ\Desktop\CIS 520\PintosRepo\ConsoleApplication1\Debug\ConsoleApplication1.pdb (Full PDB)
